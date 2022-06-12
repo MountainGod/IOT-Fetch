@@ -48,7 +48,8 @@ const processJSON = json => {
 	li.classList.add("justify-content-between");
 	li.classList.add("align-items-start");
 	
-	content.classList.add("mx-2");
+	content.classList.add("ms-2");
+	content.classList.add("me-auto");
 	
 	title.classList.add("fw-bold");
 	
