@@ -2,11 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="./css/bootstrap.css">
 	
 	<title>Home</title>
 </head>
-<body>
+<body class="bg-dark text-light">
+
+<div class="container-fluid d-flex justify-content-center">
+	<div class="btn-group mt-1" role="group" aria-label="Basic example">
+		<button type="button" id="get" class="btn btn-outline-light">GET</button>
+		<button type="button" id="post" class="btn btn-outline-light">POST</button>
+		<button type="button" id="put" class="btn btn-outline-light">PUT</button>
+		<button type="button" id="del" class="btn btn-outline-light">DEL</button>
+	</div>
+</div>
+
+<div class="container-fluid d-flex justify-content-center">
+	
+	<ol class="list-group mt-3 list-group-numbered" id="ol">
+		<li class="list-group-item d-flex align-items-start">
+			<div class="mx-2">
+				<div class="fw-bold">Subheading</div>
+				Cras justo odio
+			</div>
+			<span class="badge bg-primary rounded-pill">14</span>
+		</li>
+	</ol>
+</div>
 
 
 <script src="./js/bootstrap.js"></script>
